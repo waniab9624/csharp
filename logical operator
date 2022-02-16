@@ -1,0 +1,30 @@
+Using System;
+
+Namespace HelloWorld
+{
+  Class Program
+  {
+    Static void Main(string[] args)
+    {
+      Console.WriteLine(“Enter 1st no”);   
+      Int n1=int.Parse(Console.ReadLine());
+      Console.WriteLine(“Enter 2nd no”);
+      Int n2=int.Parse(Console.ReadLine());
+      
+      Int sum=n1+n2;
+       
+      Console.WriteLine(“The Arithmetic operator The Sum is :- “+sum);
+ 
+    
+     Console.WriteLine(“n1 == n2 “+(n1==n2));
+     Console.WriteLine(“n1 != n2 “+(n1!=n2));
+     
+     Console.WriteLine(“n1 /= n2 “+(n1+=n2));
+     
+     
+     
+     Console.WriteLine(“n1 != n2 && n1 == 2 “+(n1 != n2 && n1 == 2));
+      Console.ReadLine();
+    }
+  }
+}
